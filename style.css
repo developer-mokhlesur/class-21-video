@@ -1,0 +1,66 @@
+/*** Nessesary CSS Start From Here***/
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.text-start{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-end{
+    text-align: right;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+} */
+/*** Nessesary CSS End Here***/
+/*** Header Section CSS Start From Here ***/
+.navbar-brand img{
+    width: 68px;
+}
+/*** Header Section CSS End Here ***/
+/*** Slider Section CSS Start From Here ***/
+.carousel-item img{
+    height: 600px;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+/*** Slider Section CSS End Here ***/
+/*** About Section CSS Start From Here ***/
+
+/*** About Section CSS End Here ***/
